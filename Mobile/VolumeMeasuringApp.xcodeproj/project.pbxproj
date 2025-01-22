@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99E6835C2D2D689300B30056 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E6835A2D2D689300B30056 /* StartView.swift */; };
+		99E6835F2D2D816B00B30056 /* CameraViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E6835D2D2D816B00B30056 /* CameraViewContainer.swift */; };
+		99E683602D2D816B00B30056 /* CaptureFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E6835E2D2D816B00B30056 /* CaptureFoodView.swift */; };
+		99E683622D2DF57F00B30056 /* CaptureFoodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E683612D2DF57F00B30056 /* CaptureFoodViewModel.swift */; };
+		99E683652D2EF3D200B30056 /* PhotoConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E683632D2EF3D200B30056 /* PhotoConfirmationView.swift */; };
+		99E683662D2EF3D200B30056 /* VolumeTypeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E683642D2EF3D200B30056 /* VolumeTypeSelectionView.swift */; };
+		99E6836D2D2F03C100B30056 /* RecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E6836C2D2F03C100B30056 /* RecognitionService.swift */; };
+		99E6836F2D2F050E00B30056 /* FoodRecognitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E6836E2D2F050E00B30056 /* FoodRecognitionView.swift */; };
+		99E683712D2F080400B30056 /* FoodRecognitionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E683702D2F080400B30056 /* FoodRecognitionViewModel.swift */; };
+		99E683732D2FB1D100B30056 /* ARVolumeCalculationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E683722D2FB1D100B30056 /* ARVolumeCalculationListView.swift */; };
+		99E683752D2FE97900B30056 /* VolumeToGramService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E683742D2FE97900B30056 /* VolumeToGramService.swift */; };
+		99E683772D3025E800B30056 /* NutiritionInformationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E683762D3025E800B30056 /* NutiritionInformationService.swift */; };
+		99E683792D30351B00B30056 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E683782D30351B00B30056 /* ResultView.swift */; };
+		99E6837D2D31CCCC00B30056 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E6837A2D31CCCC00B30056 /* APIConfig.swift */; };
+		99E6837E2D31CCCC00B30056 /* APIConfig.template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E6837B2D31CCCC00B30056 /* APIConfig.template.swift */; };
+		99E683802D31CCD200B30056 /* ChatGPTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E6837F2D31CCD200B30056 /* ChatGPTService.swift */; };
+		99E683832D3284B500B30056 /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = 99E683822D3284B500B30056 /* MarkdownUI */; };
+		99E683852D38700000B30056 /* FoodHeightService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E683842D38700000B30056 /* FoodHeightService.swift */; };
+		99F08BB92D284CEF00658E22 /* VolumeMeasuringAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F08BB82D284CEF00658E22 /* VolumeMeasuringAppApp.swift */; };
+		99F08BBB2D284CEF00658E22 /* ARCalculationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F08BBA2D284CEF00658E22 /* ARCalculationView.swift */; };
+		99F08BBD2D284CF100658E22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99F08BBC2D284CF100658E22 /* Assets.xcassets */; };
+		99F08BD42D285E6600658E22 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F08BD02D285E6600658E22 /* Point.swift */; };
+		99F08BD52D285E6600658E22 /* ARViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F08BD22D285E6600658E22 /* ARViewModel.swift */; };
+		99F08BE12D28ABB700658E22 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F08BE02D28ABB700658E22 /* ARViewContainer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99E6835A2D2D689300B30056 /* StartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		99E6835D2D2D816B00B30056 /* CameraViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewContainer.swift; sourceTree = "<group>"; };
+		99E6835E2D2D816B00B30056 /* CaptureFoodView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureFoodView.swift; sourceTree = "<group>"; };
+		99E683612D2DF57F00B30056 /* CaptureFoodViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureFoodViewModel.swift; sourceTree = "<group>"; };
+		99E683632D2EF3D200B30056 /* PhotoConfirmationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoConfirmationView.swift; sourceTree = "<group>"; };
+		99E683642D2EF3D200B30056 /* VolumeTypeSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeTypeSelectionView.swift; sourceTree = "<group>"; };
+		99E6836C2D2F03C100B30056 /* RecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionService.swift; sourceTree = "<group>"; };
+		99E6836E2D2F050E00B30056 /* FoodRecognitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecognitionView.swift; sourceTree = "<group>"; };
+		99E683702D2F080400B30056 /* FoodRecognitionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodRecognitionViewModel.swift; sourceTree = "<group>"; };
+		99E683722D2FB1D100B30056 /* ARVolumeCalculationListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARVolumeCalculationListView.swift; sourceTree = "<group>"; };
+		99E683742D2FE97900B30056 /* VolumeToGramService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeToGramService.swift; sourceTree = "<group>"; };
+		99E683762D3025E800B30056 /* NutiritionInformationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutiritionInformationService.swift; sourceTree = "<group>"; };
+		99E683782D30351B00B30056 /* ResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		99E6837A2D31CCCC00B30056 /* APIConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		99E6837B2D31CCCC00B30056 /* APIConfig.template.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConfig.template.swift; sourceTree = "<group>"; };
+		99E6837F2D31CCD200B30056 /* ChatGPTService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatGPTService.swift; sourceTree = "<group>"; };
+		99E683842D38700000B30056 /* FoodHeightService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodHeightService.swift; sourceTree = "<group>"; };
+		99F08BB52D284CEF00658E22 /* Foodyze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodyze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F08BB82D284CEF00658E22 /* VolumeMeasuringAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeMeasuringAppApp.swift; sourceTree = "<group>"; };
+		99F08BBA2D284CEF00658E22 /* ARCalculationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCalculationView.swift; sourceTree = "<group>"; };
+		99F08BBC2D284CF100658E22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99F08BD02D285E6600658E22 /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		99F08BD22D285E6600658E22 /* ARViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewModel.swift; sourceTree = "<group>"; };
+		99F08BE02D28ABB700658E22 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99F08BB22D284CEF00658E22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E683832D3284B500B30056 /* MarkdownUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99E6835B2D2D689300B30056 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99E6835A2D2D689300B30056 /* StartView.swift */,
+				99E6835E2D2D816B00B30056 /* CaptureFoodView.swift */,
+				99E6835D2D2D816B00B30056 /* CameraViewContainer.swift */,
+				99E683632D2EF3D200B30056 /* PhotoConfirmationView.swift */,
+				99E6836E2D2F050E00B30056 /* FoodRecognitionView.swift */,
+				99E683642D2EF3D200B30056 /* VolumeTypeSelectionView.swift */,
+				99E683722D2FB1D100B30056 /* ARVolumeCalculationListView.swift */,
+				99F08BBA2D284CEF00658E22 /* ARCalculationView.swift */,
+				99F08BE02D28ABB700658E22 /* ARViewContainer.swift */,
+				99E683782D30351B00B30056 /* ResultView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		99E6836B2D2F03B000B30056 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				99E6837F2D31CCD200B30056 /* ChatGPTService.swift */,
+				99E683742D2FE97900B30056 /* VolumeToGramService.swift */,
+				99E6836C2D2F03C100B30056 /* RecognitionService.swift */,
+				99E683762D3025E800B30056 /* NutiritionInformationService.swift */,
+				99E683842D38700000B30056 /* FoodHeightService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		99E6837C2D31CCCC00B30056 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				99E6837A2D31CCCC00B30056 /* APIConfig.swift */,
+				99E6837B2D31CCCC00B30056 /* APIConfig.template.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		99F08BAC2D284CEF00658E22 = {
+			isa = PBXGroup;
+			children = (
+				99F08BB72D284CEF00658E22 /* VolumeMeasuringApp */,
+				99F08BB62D284CEF00658E22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99F08BB62D284CEF00658E22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99F08BB52D284CEF00658E22 /* Foodyze.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99F08BB72D284CEF00658E22 /* VolumeMeasuringApp */ = {
+			isa = PBXGroup;
+			children = (
+				99E6837C2D31CCCC00B30056 /* Config */,
+				99E6836B2D2F03B000B30056 /* Service */,
+				99F08BD12D285E6600658E22 /* Models */,
+				99F08BD32D285E6600658E22 /* ViewModels */,
+				99E6835B2D2D689300B30056 /* Views */,
+				99F08BB82D284CEF00658E22 /* VolumeMeasuringAppApp.swift */,
+				99F08BBC2D284CF100658E22 /* Assets.xcassets */,
+			);
+			path = VolumeMeasuringApp;
+			sourceTree = "<group>";
+		};
+		99F08BD12D285E6600658E22 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				99F08BD02D285E6600658E22 /* Point.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		99F08BD32D285E6600658E22 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				99E683702D2F080400B30056 /* FoodRecognitionViewModel.swift */,
+				99E683612D2DF57F00B30056 /* CaptureFoodViewModel.swift */,
+				99F08BD22D285E6600658E22 /* ARViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99F08BB42D284CEF00658E22 /* VolumeMeasuringApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99F08BC32D284CF100658E22 /* Build configuration list for PBXNativeTarget "VolumeMeasuringApp" */;
+			buildPhases = (
+				99F08BB12D284CEF00658E22 /* Sources */,
+				99F08BB22D284CEF00658E22 /* Frameworks */,
+				99F08BB32D284CEF00658E22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VolumeMeasuringApp;
+			packageProductDependencies = (
+				99E683822D3284B500B30056 /* MarkdownUI */,
+			);
+			productName = VolumeMeasuringApp;
+			productReference = 99F08BB52D284CEF00658E22 /* Foodyze.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99F08BAD2D284CEF00658E22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					99F08BB42D284CEF00658E22 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 99F08BB02D284CEF00658E22 /* Build configuration list for PBXProject "VolumeMeasuringApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99F08BAC2D284CEF00658E22;
+			packageReferences = (
+				99E683812D3284B500B30056 /* XCRemoteSwiftPackageReference "MarkdownUI" */,
+			);
+			productRefGroup = 99F08BB62D284CEF00658E22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99F08BB42D284CEF00658E22 /* VolumeMeasuringApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99F08BB32D284CEF00658E22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F08BBD2D284CF100658E22 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99F08BB12D284CEF00658E22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E6836F2D2F050E00B30056 /* FoodRecognitionView.swift in Sources */,
+				99E683602D2D816B00B30056 /* CaptureFoodView.swift in Sources */,
+				99F08BBB2D284CEF00658E22 /* ARCalculationView.swift in Sources */,
+				99E683792D30351B00B30056 /* ResultView.swift in Sources */,
+				99E683802D31CCD200B30056 /* ChatGPTService.swift in Sources */,
+				99E683662D2EF3D200B30056 /* VolumeTypeSelectionView.swift in Sources */,
+				99E683652D2EF3D200B30056 /* PhotoConfirmationView.swift in Sources */,
+				99E6835F2D2D816B00B30056 /* CameraViewContainer.swift in Sources */,
+				99E683752D2FE97900B30056 /* VolumeToGramService.swift in Sources */,
+				99F08BB92D284CEF00658E22 /* VolumeMeasuringAppApp.swift in Sources */,
+				99E6837D2D31CCCC00B30056 /* APIConfig.swift in Sources */,
+				99F08BD42D285E6600658E22 /* Point.swift in Sources */,
+				99E683732D2FB1D100B30056 /* ARVolumeCalculationListView.swift in Sources */,
+				99E683772D3025E800B30056 /* NutiritionInformationService.swift in Sources */,
+				99E6837E2D31CCCC00B30056 /* APIConfig.template.swift in Sources */,
+				99E683622D2DF57F00B30056 /* CaptureFoodViewModel.swift in Sources */,
+				99E6835C2D2D689300B30056 /* StartView.swift in Sources */,
+				99E6836D2D2F03C100B30056 /* RecognitionService.swift in Sources */,
+				99E683852D38700000B30056 /* FoodHeightService.swift in Sources */,
+				99F08BD52D285E6600658E22 /* ARViewModel.swift in Sources */,
+				99E683712D2F080400B30056 /* FoodRecognitionViewModel.swift in Sources */,
+				99F08BE12D28ABB700658E22 /* ARViewContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		99F08BC12D284CF100658E22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99F08BC22D284CF100658E22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99F08BC42D284CF100658E22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = S85JT8VCRL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = asda;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harunerenozkaya.VolumeMeasuringApp;
+				PRODUCT_NAME = Foodyze;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		99F08BC52D284CF100658E22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = S85JT8VCRL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = asda;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harunerenozkaya.VolumeMeasuringApp;
+				PRODUCT_NAME = Foodyze;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99F08BB02D284CEF00658E22 /* Build configuration list for PBXProject "VolumeMeasuringApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F08BC12D284CF100658E22 /* Debug */,
+				99F08BC22D284CF100658E22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99F08BC32D284CF100658E22 /* Build configuration list for PBXNativeTarget "VolumeMeasuringApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F08BC42D284CF100658E22 /* Debug */,
+				99F08BC52D284CF100658E22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		99E683812D3284B500B30056 /* XCRemoteSwiftPackageReference "MarkdownUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/MarkdownUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		99E683822D3284B500B30056 /* MarkdownUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99E683812D3284B500B30056 /* XCRemoteSwiftPackageReference "MarkdownUI" */;
+			productName = MarkdownUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 99F08BAD2D284CEF00658E22 /* Project object */;
+}
